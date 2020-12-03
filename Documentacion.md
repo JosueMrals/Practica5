@@ -150,4 +150,30 @@
 
 <img src="medios\40.png"/>
 
+## 1.4: Editando el layout en el XML
+
+## Edite el fichero strings.xml que se encuentra en la carpeta res/values:
+
+> *Abra el fichero activity_main.xml y cambie el modo solamente a código*
+
+<img src="medios\42.png"/>
+
+> *Cambie el valor de text del TextView a un @string/count_initial_value*
+
+<img src="medios\43.png"/>
+
+> *Cambie el valor de text del botón superior a @string/button_label_toast*
+
+<img src="medios\44.png"/>
+
+> *Cambie el valor de text del botón inferior a @string/button_label_count*
+
+<img src="medios\45.png"/>
+
+## 1.5: Agregar el manejador del evento onClick para los botones
+
+> **Establezca el siguiente código al botón que tenga como id button_toast, antes de cerrarlo*
+
+
+
 
