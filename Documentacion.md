@@ -33,7 +33,8 @@
 
 > *Comience con una pizarra limpia. El elemento TextView no es necesario, por lo que mientras está seleccionado, pulse la tecla Supr o elija Edición > Eliminar. Ahora tiene un diseño completamente en blanco*
 
-<img src="medios\9.png"/>
+<img
+ src="medios\9.png"/>
 
 > *Arrastre un botón desde el panel Paleta a cualquier posición de la presentación. Si coloca el elemento Button en el área media superior de la presentación, pueden aparecer restricciones automáticamente. Si no es así, puede arrastrar restricciones a la parte superior, izquierda y derecha del diseño*
 
@@ -93,7 +94,7 @@
 
 <img src="medios\25.png"/>
 
-> *elecciona el segundo botón y edite su campo **id** a **button_count**.*
+> *Selecciona el segundo botón y edite su campo **id** a **button_count**.*
 
 <img src="medios\26.png"/>
 
@@ -105,3 +106,48 @@
 
 <img src="medios\28.png"/>
 <img src="medios\29.png"/>
+
+## Agregar el elemento TextView y sus atributos correspondientes
+
+> *Desde el panel **Palette** y el apartado Common, agregue un elemento **View TextView** y establezca el atributo **id** a **show_count**.*
+
+<img src="medios\30.png"/>
+<img src="medios\31.png"/>
+
+> *Establezca las restricciones del **TextView**, la parte superior con el botón de **Toast** y su parte inferior con el botón contador.*
+
+<img src="medios\32.png"/>
+
+> *Establezca las restricciones izquierda y derecha del elemento **TextView** al lado correspondiente al contenedor padre.*
+
+<img src="medios\33.png"/>
+
+> *Establezca el valor **text** a **0**.*
+
+<img src="medios\34.png"/>
+
+> *Establezca el valor **textSize** a **160sp**.*
+
+<img src="medios\35.png"/>
+
+> *Establezca el **textStyle** a **bold**.*
+
+<img src="medios\36.png"/>
+
+> *Cambie **layout_width** y **layout_height** a **match_constraint**.*
+
+<img src="medios\37.png"/>
+
+> *Establezca el **textColor** a **@color/colorPrimary**.*
+
+<img src="medios\38.png"/>
+
+> *Establezca un valor preferido al atributo **background**, opcional el #0F49CD.*
+
+<img src="medios\39.png"/>
+
+> *Establezca el valor **gravity** a **center_vertical**.*
+
+<img src="medios\40.png"/>
+
+
