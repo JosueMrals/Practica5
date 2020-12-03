@@ -174,6 +174,20 @@
 
 > **Establezca el siguiente código al botón que tenga como id button_toast, antes de cerrarlo*
 
+<img src="medios\47.png"/>
 
+> *Establezca el siguiente código al botón que tenga como id button_count, antes de cerrarlo*
+
+<img src="medios\46.png"/>
+
+> *Abra el MainActivity.kt y agregue el siguiente código*
+
+<img src="medios\48.png"/>
+
+> *Agregue el siguiente código al método showToast*
+
+<img src="medios\49.png"/>
+
+> *Pruebe los resultados ejecutando la aplicación y mostrando el mensaje generado con el valor Hola soy un Toast*
 
 
