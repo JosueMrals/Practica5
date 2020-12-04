@@ -154,40 +154,47 @@
 
 ## Edite el fichero strings.xml que se encuentra en la carpeta res/values:
 
-> *Abra el fichero activity_main.xml y cambie el modo solamente a código*
+> *Abra el fichero **activity_main.xml** y cambie el modo solamente a código*
 
 <img src="medios\42.png"/>
 
-> *Cambie el valor de text del TextView a un @string/count_initial_value*
+> *Cambie el valor de text del TextView a un **@string/count_initial_value**.*
 
 <img src="medios\43.png"/>
 
-> *Cambie el valor de text del botón superior a @string/button_label_toast*
+> *Cambie el valor de text del botón superior a **@string/button_label_toast**.*
 
 <img src="medios\44.png"/>
 
-> *Cambie el valor de text del botón inferior a @string/button_label_count*
+> *Cambie el valor de text del botón inferior a **@string/button_label_count**.*
 
 <img src="medios\45.png"/>
 
 ## 1.5: Agregar el manejador del evento onClick para los botones
 
-> **Establezca el siguiente código al botón que tenga como id button_toast, antes de cerrarlo*
+> **Establezca el siguiente código al botón que tenga como id **button_toast**, antes de cerrarlo*
 
 <img src="medios\47.png"/>
 
-> *Establezca el siguiente código al botón que tenga como id button_count, antes de cerrarlo*
+> *Establezca el siguiente código al botón que tenga como id **button_count**, antes de cerrarlo*
 
 <img src="medios\46.png"/>
 
-> *Abra el MainActivity.kt y agregue el siguiente código*
+> *Abra el **MainActivity.kt** y agregue el siguiente código*
 
 <img src="medios\48.png"/>
 
-> *Agregue el siguiente código al método showToast*
+> *Agregue el siguiente código al método **showToast**.*
 
 <img src="medios\49.png"/>
 
-> *Pruebe los resultados ejecutando la aplicación y mostrando el mensaje generado con el valor Hola soy un Toast*
+> *Agregue el siguiente código al método **countUp**.*
 
+<img src="medios\51.png"/>
+
+> *Pruebe los resultados ejecutando la aplicación y mostrando el mensaje generado con el valor **Hola soy un Toast**.*
+
+> *Muestre la aplicación funcionando con el contador funcionando el contador y el mensaje **Toast** mostrándose cada vez que el usuario de Clic*
+
+<img src="medios\50.jpeg"/>
 
